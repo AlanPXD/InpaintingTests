@@ -6,7 +6,6 @@ from tensorflow.keras import layers
 from tensorflow import keras
 from tensorflow.keras.utils import plot_model
 
-
 model_name = "D-Teste1"
 
 def conv_block(
@@ -83,7 +82,7 @@ def get_discriminator_model():
     x = layers.Dropout(0.2)(x)
     x = layers.Dense(1)(x)
 
-    d_model = keras.models.Model(img_input, x, name="discriminator")
+    d_model = keras.models.Model(img_input, x, name= model_name)
     return d_model
 
 
