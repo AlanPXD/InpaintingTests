@@ -1,7 +1,7 @@
 {
     "class_name": "Functional",
     "config": {
-        "name": "discriminator",
+        "name": "D-Teste1",
         "layers": [
             {
                 "class_name": "InputLayer",
